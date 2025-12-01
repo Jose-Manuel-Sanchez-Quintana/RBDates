@@ -1,0 +1,63 @@
+import React from 'react';
+import Section from './Section';
+import { motion } from 'framer-motion';
+
+const About = () => {
+    return (
+        <Section id="about" className="bg-warmCream">
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+                <motion.div
+                    initial={{ opacity: 0, x: -50 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.8 }}
+                    className="relative"
+                >
+                    <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
+                        <img
+                            src="/assets/dates-closeup.jpg"
+                            alt="Close up of fresh dates"
+                            className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                        />
+                    </div>
+                    <div className="absolute -bottom-6 -right-6 w-2/3 aspect-video rounded-xl overflow-hidden shadow-xl border-4 border-warmCream hidden md:block">
+                        <img
+                            src="/assets/pollen.jpg"
+                            alt="Date processing"
+                            className="w-full h-full object-cover"
+                        />
+                    </div>
+                </motion.div>
+
+                <motion.div
+                    initial={{ opacity: 0, x: 50 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.8 }}
+                >
+                    <h2 className="text-deepDateBrown text-sm font-bold uppercase tracking-widest mb-2">About Us</h2>
+                    <h3 className="text-4xl md:text-5xl font-bold text-richBrown mb-6">Cultivating Sweetness with Care</h3>
+                    <p className="text-richBrown/80 text-lg mb-6 leading-relaxed">
+                        At RB Dates, we believe in the purity of nature. Our journey begins in the sun-drenched groves where every palm is tended to with generations of expertise. We are dedicated to bringing you the finest, most succulent dates, harvested at the peak of perfection.
+                    </p>
+                    <p className="text-richBrown/80 text-lg mb-8 leading-relaxed">
+                        From the careful selection of each fruit to the meticulous processing, our "Palm to Table" philosophy ensures that you experience the authentic taste of quality in every bite. Whether for a healthy snack or a gourmet ingredient, RB Dates delivers nature's candy directly to you.
+                    </p>
+
+                    <div className="grid grid-cols-2 gap-6">
+                        <div className="border-l-4 border-deepDateBrown pl-4">
+                            <h4 className="text-2xl font-bold text-deepDateBrown mb-1">100%</h4>
+                            <p className="text-richBrown/70">Natural & Organic</p>
+                        </div>
+                        <div className="border-l-4 border-deepDateBrown pl-4">
+                            <h4 className="text-2xl font-bold text-deepDateBrown mb-1">Premium</h4>
+                            <p className="text-richBrown/70">Quality Guaranteed</p>
+                        </div>
+                    </div>
+                </motion.div>
+            </div>
+        </Section>
+    );
+};
+
+export default About;

@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-warmCream text-richBrown;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold text-deepDateBrown;
+  }
+}
+
+@theme {
+  --color-richBrown: #3A1D12;
+  --color-deepDateBrown: #5A2E1B;
+  --color-warmCream: #FAF7F2;
+  --color-desertBeige: #F2E8D5;
+}
