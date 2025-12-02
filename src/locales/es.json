@@ -1,0 +1,83 @@
+{
+    "navbar": {
+        "about": "Sobre Nosotros",
+        "products": "Productos",
+        "whyUs": "Por Qué Nosotros",
+        "contact": "Contacto"
+    },
+    "hero": {
+        "badge": "Dátiles de Calidad Premium",
+        "title": "RB Dates",
+        "subtitle": "De la Palma a la Mesa — Experimenta la Dulzura de la Naturaleza",
+        "ctaExplore": "Explora Nuestros Dátiles",
+        "ctaStory": "Nuestra Historia"
+    },
+    "about": {
+        "sectionTitle": "Sobre Nosotros",
+        "mainTitle": "Cultivando Dulzura con Cuidado",
+        "p1": "En RB Dates, creemos en la pureza de la naturaleza. Nuestro viaje comienza en los palmerales bañados por el sol donde cada palma es cuidada con generaciones de experiencia. Estamos dedicados a traerte los dátiles más finos y suculentos, cosechados en el punto máximo de perfección.",
+        "p2": "Desde la cuidadosa selección de cada fruto hasta el meticuloso procesamiento, nuestra filosofía \"De la Palma a la Mesa\" asegura que experimentes el auténtico sabor de la calidad en cada bocado. Ya sea como un snack saludable o un ingrediente gourmet, RB Dates te entrega el dulce de la naturaleza directamente a ti.",
+        "natural": "Natural y Orgánico",
+        "quality": "Calidad Garantizada"
+    },
+    "products": {
+        "sectionTitle": "Nuestra Colección",
+        "mainTitle": "Los Mejores Dátiles de la Naturaleza",
+        "items": {
+            "medjool": {
+                "title": "Dátiles Medjool Premium",
+                "description": "Conocidos como el 'Rey de los Dátiles', nuestros dátiles Medjool son grandes, suaves y llenos de un sabor similar al caramelo."
+            },
+            "fresh": {
+                "title": "Cosecha Fresca",
+                "description": "Recogidos a mano en el momento perfecto de madurez para asegurar la máxima dulzura y textura."
+            },
+            "processing": {
+                "title": "Procesamiento de Calidad",
+                "description": "Nuestro riguroso proceso de clasificación y empaquetado garantiza que solo los mejores dátiles lleguen a tu mesa."
+            },
+            "golden": {
+                "title": "Delicias Medjool Doradas",
+                "description": "Estos dátiles Medjool son grandes y alargados, con un rico color ámbar-marrón que señala su dulzura natural y calidad premium."
+            }
+        }
+    },
+    "whyUs": {
+        "sectionTitle": "Por Qué Elegirnos",
+        "mainTitle": "La Diferencia de RB Dates",
+        "items": {
+            "flavor": {
+                "title": "Sabor Bañado por el Sol",
+                "description": "Cultivados en el clima ideal, nuestros dátiles absorben la dulzura natural del sol."
+            },
+            "sustainable": {
+                "title": "Cultivado Sosteniblemente",
+                "description": "Utilizamos prácticas agrícolas ecológicas para proteger nuestra tierra y tu salud."
+            },
+            "premium": {
+                "title": "Selección Premium",
+                "description": "Solo los mejores dátiles pasan el corte, asegurando tamaño, textura y sabor consistentes."
+            },
+            "delivery": {
+                "title": "De la Granja a tu Puerta",
+                "description": "La distribución directa significa que obtienes los dátiles más frescos al mejor valor."
+            }
+        }
+    },
+    "contact": {
+        "sectionTitle": "Ponte en Contacto",
+        "mainTitle": "Conectemos",
+        "description": "¿Tienes preguntas sobre nuestros productos o quieres hacer un pedido al por mayor? Nos encantaría saber de ti. Contáctanos directamente",
+        "phone": "Teléfono",
+        "email": "Correo Electrónico",
+        "location": "Ubicación"
+    },
+    "footer": {
+        "description": "Trayendo los mejores dátiles madurados al sol de nuestras palmas a tu mesa. Experimenta la dulzura natural y los beneficios para la salud de los dátiles de calidad premium.",
+        "quickLinks": "Enlaces Rápidos",
+        "followUs": "Síguenos",
+        "rights": "Todos los derechos reservados.",
+        "privacy": "Política de Privacidad",
+        "terms": "Términos de Servicio"
+    }
+}

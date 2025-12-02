@@ -2,31 +2,34 @@ import React from 'react';
 import Section from './Section';
 import { Sun, Leaf, Award, Truck } from 'lucide-react';
 import { motion } from 'framer-motion';
-
-const features = [
-    {
-        icon: <Sun size={32} />,
-        title: "Sun-Kissed Flavor",
-        description: "Grown in the ideal climate, our dates absorb the natural sweetness of the sun."
-    },
-    {
-        icon: <Leaf size={32} />,
-        title: "Sustainably Grown",
-        description: "We use eco-friendly farming practices to protect our land and your health."
-    },
-    {
-        icon: <Award size={32} />,
-        title: "Premium Selection",
-        description: "Only the finest dates make the cut, ensuring consistent size, texture, and taste."
-    },
-    {
-        icon: <Truck size={32} />,
-        title: "Farm to Doorstep",
-        description: "Direct distribution means you get the freshest dates at the best value."
-    }
-];
+import { useTranslation } from 'react-i18next';
 
 const WhyChooseUs = () => {
+    const { t } = useTranslation();
+
+    const features = [
+        {
+            icon: <Sun size={32} />,
+            title: t('whyUs.items.flavor.title'),
+            description: t('whyUs.items.flavor.description')
+        },
+        {
+            icon: <Leaf size={32} />,
+            title: t('whyUs.items.sustainable.title'),
+            description: t('whyUs.items.sustainable.description')
+        },
+        {
+            icon: <Award size={32} />,
+            title: t('whyUs.items.premium.title'),
+            description: t('whyUs.items.premium.description')
+        },
+        {
+            icon: <Truck size={32} />,
+            title: t('whyUs.items.delivery.title'),
+            description: t('whyUs.items.delivery.description')
+        }
+    ];
+
     return (
         <Section id="why-us" className="bg-deepDateBrown relative overflow-hidden">
             {/* Background Pattern */}
@@ -43,8 +46,8 @@ const WhyChooseUs = () => {
 
             <div className="relative z-10">
                 <div className="text-center mb-16">
-                    <h2 className="text-desertBeige text-sm font-bold uppercase tracking-widest mb-2">Why Choose Us</h2>
-                    <h3 className="text-4xl md:text-5xl font-bold text-warmCream">The RB Dates Difference</h3>
+                    <h2 className="text-desertBeige text-sm font-bold uppercase tracking-widest mb-2">{t('whyUs.sectionTitle')}</h2>
+                    <h3 className="text-4xl md:text-5xl font-bold text-warmCream">{t('whyUs.mainTitle')}</h3>
                 </div>
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">

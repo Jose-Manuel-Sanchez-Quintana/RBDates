@@ -2,37 +2,39 @@ import React, { useState } from 'react';
 import Section from './Section';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-
-const products = [
-    {
-        id: 1,
-        title: "Premium Medjool Dates",
-        description: "Known as the 'King of Dates', our Medjool dates are large, soft, and bursting with caramel-like flavor.",
-        image: "/assets/boxes.jpg"
-    },
-    {
-        id: 2,
-        title: "Fresh Harvest",
-        description: "Hand-picked at the perfect moment of ripeness to ensure maximum sweetness and texture.",
-        image: "/assets/dates-closeup.jpg"
-    },
-    {
-        id: 3,
-        title: "Quality Processing",
-        description: "Our rigorous sorting and packing process guarantees that only the best dates make it to your table.",
-        image: "/assets/processing.jpg"
-    },
-    {
-        id: 4,
-        title: "Golden Medjool Delights",
-        description: "These Medjool dates are large and elongated, with a rich amber-brown color that signals their natural sweetness and premium quality.",
-        image: "/assets/dates-box2.jpg"
-    }
-];
+import { useTranslation } from 'react-i18next';
 
 const Products = () => {
+    const { t } = useTranslation();
     const [currentIndex, setCurrentIndex] = useState(0);
     const [direction, setDirection] = useState(0);
+
+    const products = [
+        {
+            id: 1,
+            title: t('products.items.medjool.title'),
+            description: t('products.items.medjool.description'),
+            image: "/assets/boxes.jpg"
+        },
+        {
+            id: 2,
+            title: t('products.items.fresh.title'),
+            description: t('products.items.fresh.description'),
+            image: "/assets/dates-closeup.jpg"
+        },
+        {
+            id: 3,
+            title: t('products.items.processing.title'),
+            description: t('products.items.processing.description'),
+            image: "/assets/processing.jpg"
+        },
+        {
+            id: 4,
+            title: t('products.items.golden.title'),
+            description: t('products.items.golden.description'),
+            image: "/assets/dates-box2.jpg"
+        }
+    ];
 
     const slideVariants = {
         enter: (direction) => ({
@@ -64,8 +66,8 @@ const Products = () => {
     return (
         <Section id="products" className="bg-white overflow-hidden">
             <div className="text-center mb-16">
-                <h2 className="text-deepDateBrown text-sm font-bold uppercase tracking-widest mb-2">Our Collection</h2>
-                <h3 className="text-4xl md:text-5xl font-bold text-richBrown">Nature's Finest Dates</h3>
+                <h2 className="text-deepDateBrown text-sm font-bold uppercase tracking-widest mb-2">{t('products.sectionTitle')}</h2>
+                <h3 className="text-4xl md:text-5xl font-bold text-richBrown">{t('products.mainTitle')}</h3>
             </div>
 
             <div className="relative h-[500px] w-full max-w-5xl mx-auto rounded-2xl overflow-hidden shadow-2xl bg-warmCream">

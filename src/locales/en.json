@@ -1,0 +1,83 @@
+{
+    "navbar": {
+        "about": "About",
+        "products": "Products",
+        "whyUs": "Why Us",
+        "contact": "Contact"
+    },
+    "hero": {
+        "badge": "Premium Quality Dates",
+        "title": "RB Dates",
+        "subtitle": "From Palm to Table — Experience the Sweetness of Nature",
+        "ctaExplore": "Explore Our Dates",
+        "ctaStory": "Our Story"
+    },
+    "about": {
+        "sectionTitle": "About Us",
+        "mainTitle": "Cultivating Sweetness with Care",
+        "p1": "At RB Dates, we believe in the purity of nature. Our journey begins in the sun-drenched groves where every palm is tended to with generations of expertise. We are dedicated to bringing you the finest, most succulent dates, harvested at the peak of perfection.",
+        "p2": "From the careful selection of each fruit to the meticulous processing, our \"Palm to Table\" philosophy ensures that you experience the authentic taste of quality in every bite. Whether for a healthy snack or a gourmet ingredient, RB Dates delivers nature's candy directly to you.",
+        "natural": "Natural & Organic",
+        "quality": "Quality Guaranteed"
+    },
+    "products": {
+        "sectionTitle": "Our Collection",
+        "mainTitle": "Nature's Finest Dates",
+        "items": {
+            "medjool": {
+                "title": "Premium Medjool Dates",
+                "description": "Known as the 'King of Dates', our Medjool dates are large, soft, and bursting with caramel-like flavor."
+            },
+            "fresh": {
+                "title": "Fresh Harvest",
+                "description": "Hand-picked at the perfect moment of ripeness to ensure maximum sweetness and texture."
+            },
+            "processing": {
+                "title": "Quality Processing",
+                "description": "Our rigorous sorting and packing process guarantees that only the best dates make it to your table."
+            },
+            "golden": {
+                "title": "Golden Medjool Delights",
+                "description": "These Medjool dates are large and elongated, with a rich amber-brown color that signals their natural sweetness and premium quality."
+            }
+        }
+    },
+    "whyUs": {
+        "sectionTitle": "Why Choose Us",
+        "mainTitle": "The RB Dates Difference",
+        "items": {
+            "flavor": {
+                "title": "Sun-Kissed Flavor",
+                "description": "Grown in the ideal climate, our dates absorb the natural sweetness of the sun."
+            },
+            "sustainable": {
+                "title": "Sustainably Grown",
+                "description": "We use eco-friendly farming practices to protect our land and your health."
+            },
+            "premium": {
+                "title": "Premium Selection",
+                "description": "Only the finest dates make the cut, ensuring consistent size, texture, and taste."
+            },
+            "delivery": {
+                "title": "Farm to Doorstep",
+                "description": "Direct distribution means you get the freshest dates at the best value."
+            }
+        }
+    },
+    "contact": {
+        "sectionTitle": "Get in Touch",
+        "mainTitle": "Let's Connect",
+        "description": "Have questions about our products or want to place a bulk order? We'd love to hear from you. Reach out to us directly",
+        "phone": "Phone",
+        "email": "Email",
+        "location": "Location"
+    },
+    "footer": {
+        "description": "Bringing the finest, sun-ripened dates from our palms to your table. Experience the natural sweetness and health benefits of premium quality dates.",
+        "quickLinks": "Quick Links",
+        "followUs": "Follow Us",
+        "rights": "All rights reserved.",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service"
+    }
+}

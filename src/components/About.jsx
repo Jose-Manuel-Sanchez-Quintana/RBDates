@@ -1,8 +1,11 @@
 import React from 'react';
 import Section from './Section';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 const About = () => {
+    const { t } = useTranslation();
+
     return (
         <Section id="about" className="bg-warmCream">
             <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -35,23 +38,23 @@ const About = () => {
                     viewport={{ once: true }}
                     transition={{ duration: 0.8 }}
                 >
-                    <h2 className="text-deepDateBrown text-sm font-bold uppercase tracking-widest mb-2">About Us</h2>
-                    <h3 className="text-4xl md:text-5xl font-bold text-richBrown mb-6">Cultivating Sweetness with Care</h3>
+                    <h2 className="text-deepDateBrown text-sm font-bold uppercase tracking-widest mb-2">{t('about.sectionTitle')}</h2>
+                    <h3 className="text-4xl md:text-5xl font-bold text-richBrown mb-6">{t('about.mainTitle')}</h3>
                     <p className="text-richBrown/80 text-lg mb-6 leading-relaxed">
-                        At RB Dates, we believe in the purity of nature. Our journey begins in the sun-drenched groves where every palm is tended to with generations of expertise. We are dedicated to bringing you the finest, most succulent dates, harvested at the peak of perfection.
+                        {t('about.p1')}
                     </p>
                     <p className="text-richBrown/80 text-lg mb-8 leading-relaxed">
-                        From the careful selection of each fruit to the meticulous processing, our "Palm to Table" philosophy ensures that you experience the authentic taste of quality in every bite. Whether for a healthy snack or a gourmet ingredient, RB Dates delivers nature's candy directly to you.
+                        {t('about.p2')}
                     </p>
 
                     <div className="grid grid-cols-2 gap-6">
                         <div className="border-l-4 border-deepDateBrown pl-4">
                             <h4 className="text-2xl font-bold text-deepDateBrown mb-1">100%</h4>
-                            <p className="text-richBrown/70">Natural & Organic</p>
+                            <p className="text-richBrown/70">{t('about.natural')}</p>
                         </div>
                         <div className="border-l-4 border-deepDateBrown pl-4">
                             <h4 className="text-2xl font-bold text-deepDateBrown mb-1">Premium</h4>
-                            <p className="text-richBrown/70">Quality Guaranteed</p>
+                            <p className="text-richBrown/70">{t('about.quality')}</p>
                         </div>
                     </div>
                 </motion.div>

@@ -1,7 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 const Hero = () => {
+    const { t } = useTranslation();
+
     return (
         <div className="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden">
             {/* Background Image */}
@@ -23,7 +26,7 @@ const Hero = () => {
                     transition={{ duration: 0.8 }}
                     className="inline-block py-1 px-3 rounded-full bg-warmCream/20 backdrop-blur-sm border border-warmCream/30 text-warmCream text-sm font-medium mb-6 tracking-wider uppercase"
                 >
-                    Premium Quality Dates
+                    {t('hero.badge')}
                 </motion.span>
 
                 <motion.h1
@@ -32,7 +35,7 @@ const Hero = () => {
                     transition={{ duration: 0.8, delay: 0.2 }}
                     className="text-5xl md:text-7xl font-bold text-warmCream mb-6 leading-tight"
                 >
-                    RB Dates
+                    {t('hero.title')}
                 </motion.h1>
 
                 <motion.p
@@ -41,7 +44,7 @@ const Hero = () => {
                     transition={{ duration: 0.8, delay: 0.4 }}
                     className="text-xl md:text-2xl text-desertBeige mb-10 font-light"
                 >
-                    From Palm to Table — Experience the Sweetness of Nature
+                    {t('hero.subtitle')}
                 </motion.p>
 
                 <motion.div
@@ -54,13 +57,13 @@ const Hero = () => {
                         href="#products"
                         className="px-8 py-4 bg-deepDateBrown text-warmCream rounded-full font-semibold text-lg hover:bg-opacity-90 transition-all shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
                     >
-                        Explore Our Dates
+                        {t('hero.ctaExplore')}
                     </a>
                     <a
                         href="#about"
                         className="px-8 py-4 bg-warmCream text-deepDateBrown rounded-full font-semibold text-lg hover:bg-white transition-all shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
                     >
-                        Our Story
+                        {t('hero.ctaStory')}
                     </a>
                 </motion.div>
             </div>
