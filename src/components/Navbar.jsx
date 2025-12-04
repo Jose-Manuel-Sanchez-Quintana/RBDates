@@ -36,7 +36,7 @@ const Navbar = () => {
         >
             <div className="max-w-7xl mx-auto px-4 md:px-8 flex justify-between items-center">
                 <a href="#" className={`text-2xl font-bold flex items-center gap-2 ${scrolled ? 'text-richBrown' : 'text-warmCream'}`}>
-                    <img src="/assets/logo.jpg" alt="RB Dates Logo" className="h-10 w-10 object-contain rounded-full" />
+                    <img src="assets/logo.jpg" alt="RB Dates Logo" className="h-10 w-10 object-contain rounded-full" />
                     <span>RB Dates</span>
                 </a>
 

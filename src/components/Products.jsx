@@ -14,25 +14,25 @@ const Products = () => {
             id: 1,
             title: t('products.items.medjool.title'),
             description: t('products.items.medjool.description'),
-            image: "/assets/boxes.jpg"
+            image: "assets/boxes.jpg"
         },
         {
             id: 2,
             title: t('products.items.fresh.title'),
             description: t('products.items.fresh.description'),
-            image: "/assets/dates-closeup.jpg"
+            image: "assets/dates-closeup.jpg"
         },
         {
             id: 3,
             title: t('products.items.processing.title'),
             description: t('products.items.processing.description'),
-            image: "/assets/processing.jpg"
+            image: "assets/processing.jpg"
         },
         {
             id: 4,
             title: t('products.items.golden.title'),
             description: t('products.items.golden.description'),
-            image: "/assets/dates-box2.jpg"
+            image: "assets/dates-box2.jpg"
         }
     ];
 

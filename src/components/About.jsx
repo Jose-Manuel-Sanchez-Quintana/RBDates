@@ -18,14 +18,14 @@ const About = () => {
                 >
                     <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
                         <img
-                            src="/assets/dates-closeup.jpg"
+                            src="assets/dates-closeup.jpg"
                             alt="Close up of fresh dates"
                             className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                         />
                     </div>
                     <div className="absolute -bottom-6 -right-6 w-2/3 aspect-video rounded-xl overflow-hidden shadow-xl border-4 border-warmCream hidden md:block">
                         <img
-                            src="/assets/pollen.jpg"
+                            src="assets/pollen.jpg"
                             alt="Date processing"
                             className="w-full h-full object-cover"
                         />
